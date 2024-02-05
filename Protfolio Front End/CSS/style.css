@@ -25,7 +25,7 @@ body{
     z-index: 100;
 }
 
-.logo{
+.logo, .logo1{
     position: relative;
     font-size: 25px;
     color: #ededed;
@@ -298,6 +298,10 @@ body{
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
     z-index: 100;
+}
+
+li>a {
+    color: white !important;
 }
 
 /*KEYFRAMES ANIMATION*/
